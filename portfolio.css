@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(38, 39, 40);
+    color:  whitesmoke;
+}
+span{
+    color: brown;
+}
+h3{
+    font-family: cursive;
+    padding-top: 8px;
+}
+.Home--Container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+    margin-bottom: 70px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+}
+li{
+    list-style: none;
+    margin: 10px;
+}
+h2{
+    font-family: cursive;
+    font-size: 250%;
+}
+.name--tag{
+    font-size: x-small;
+    background-color: brown;
+    width: 100px;
+    height: 15px;
+    padding: 2px;
+    padding-left: 6px;
+    border-radius: 5px;
+    margin-left: 150px;
+}
+.Main--Container{
+    margin-top: 10%;
+}
+.image{
+    height: 10%;
+    text-align: center;
+    background-color: brown;
+    border-radius: 50%;
+
+}
+.image--container{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+}
+p{
+    margin-top: 50px;
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: antiquewhite;
+}
