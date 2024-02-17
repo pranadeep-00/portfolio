@@ -43,10 +43,6 @@ h2{
     padding: 2px;
     padding-left: 3px;
     border-radius: 5px;
-    margin-left: 300px;
-}
-.Home--Content{
-    
 }
 .image{
     height: 150px;
@@ -64,4 +60,5 @@ p{
     font-size: small;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: antiquewhite;
+    text-align: center;
 }
