@@ -16,37 +16,43 @@ h3{
     margin: 10px;
     margin-bottom: 70px;
 }
+nav >ul :hover{
+    cursor: pointer;
+    color: brown;
+}
 ul{
     display: flex;
     flex-direction: row;
+    transition: all ease .50s;
 }
 li{
     list-style: none;
     margin: 10px;
 }
 h2{
+    text-align: center;
     font-family: cursive;
     font-size: 250%;
 }
 .name--tag{
+    text-align: center;
     font-size: x-small;
     background-color: brown;
     width: 100px;
     height: 15px;
     padding: 2px;
-    padding-left: 6px;
+    padding-left: 3px;
     border-radius: 5px;
-    margin-left: 150px;
+    margin-left: 300px;
 }
-.Main--Container{
-    margin-top: 10%;
+.Home--Content{
+    
 }
 .image{
-    height: 10%;
+    height: 150px;
     text-align: center;
     background-color: brown;
     border-radius: 50%;
-
 }
 .image--container{
     margin-top: 3%;
