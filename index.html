@@ -20,14 +20,14 @@
                 </header>
                 <nav>
                     <ul>
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>Projects</li>
+                        <li><a href="#Home" class="Navbar">Home</a></li>
+                        <li><a href="#About" class="Navbar">About</a></li>
+                        <li> <a href="#Projects" class="Navbar">Projects</a></li>
                         <li>Certificates</li>
                     </ul>
                 </nav>
             </div>
-            <div class="row">
+            <div class="row" id="Home">
                 <div class="col-12 col-sm-8">
                     <h2>
                         <span>P</span>ranadeep
@@ -35,7 +35,7 @@
                     <h6 class="name--tag offset-8">
                         Frontend Developer
                     </h6>
-                    <p>
+                    <p class="Home--paragraph">
                         Hi there! I'm a passionate and aspiring Frontend developer. I have a strong enthusiasm for web development and a genuine eagerness to learn and contribute my skills.
                     </p>
                 </div>
@@ -43,9 +43,132 @@
                     <img src="image.png" class="image"/>
                 </div>
             </div>
-            
-              
+        </div>
+
+
+        <div class="Skills--Section grid" id="About">
+            <div class="g-col-12">
+                <h3>
+                    Skills:
+                </h3>
+            </div>
+            <div class="g-col-12 g-col-lg-6 g-col-md-12">
+                <h6>
+                    Web development: 
+                </h6>
+                <div class="d-flex Skills--content">
+                    <p class="Skills--Icon">
+                        HTML5
+                    </p>
+                    <p class="Skills--Icon">
+                        CSS3
+                    </p>
+                    <p class="Skills--Icon">
+                        JavaScript
+                    </p>
+                    <p class="Skills--Icon"> 
+                        SqLite
+                    </p>
+                </div>
+            </div>
+
+            <div class="g-col-12 g-col-lg-6 g-col-md-12">
+                <h6>
+                    Frameworks:
+                </h6>
+                <div class="d-flex Skills--content">
+                    <p class="Skills--Icon">
+                        BootStrap
+                    </p>
+                    <p class="Skills--Icon">
+                        ReactJS
+                    </p>
+                </div>
+            </div>
+
+            <div class="g-col-12 g-col-lg-6 g-col-md-12">
+                <h6>
+                    Coding:
+                </h6>
+                <div class="d-flex Skills--content">
+                    <p class="Skills--Icon">
+                        Java
+                    </p>
+                    <p class="Skills--Icon">
+                        Python
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="grid" id="Projects">
+            <div class="g-col-12 text-center">
+                <h4>
+                    Projects
+                </h4>
+            </div>
+            <div class="g-col-4">
+                <button class="col btn btn-outline-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseProject1" aria-expanded="true" aria-controls="collapseProject1">
+                    TodoList Application
+                </button>
+            </div>
+            <div class="g-col-4">
+                <button class="col btn btn-outline-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseProject2" aria-expanded="true" aria-controls="collapseProject2">
+                    Food Munch
+                </button>
+            </div>
+            <div class="g-col-4">
+                <button class="col btn btn-outline-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseProject3" aria-expanded="true" aria-controls="collapseExample">
+                    Calculator
+                </button>
+            </div>
+        </div>
+        <div class="collapse" id="collapseProject1">
+            <div>
+                <h6 style="text-align: center;">
+                    • Todo List Application
+                </h6>
+                <p>
+                •TODOS Application
+                Project description: Developed persistent todo application with CRUD operations to the track list of tasks <br>
+                 -Tools & technologies used: HTML5, CSS3, JavaScript, Bootstrap <br>
+                 -Developed and implemented a robust todo application with CRUD operations, enabling efficient tracking and 
+                management of tasks.
+                </p>
+            </div>
+        </div>
+        <div class="collapse" id="collapseProject2">
+            <div>
+                <h6 style="text-align: center;">
+                    • FOOD MUNCH
+                </h6>
+                <p >
+                Project description: Created and designed an Static FOOD mart Website using HTML5 and CSS3 <br>
+                    -Tools & technologies used: HTML5, CSS3, Bootstrap <br>
+                    -I incorporated custom design elements, including an attractive and an user-friendly 
+                    navigation menu, and eye-catching product displays. The website is compatible with major web browsers,
+                    ensuring accessibility for a broad audience
+                </p>
+            </div>
+        </div>
+        <div class="collapse" id="collapseProject3">
+            <div>
+                <h6 style="text-align: center;">
+                    • FOOD MUNCH
+                </h6>
+                <p >
+                Project description: Created and designed an Static FOOD mart Website using HTML5 and CSS3 <br>
+                    -Tools & technologies used: HTML5, CSS3, Bootstrap <br>
+                    -I incorporated custom design elements, including an attractive and an user-friendly 
+                    navigation menu, and eye-catching product displays. The website is compatible with major web browsers,
+                    ensuring accessibility for a broad audience
+                </p>
+            </div>
         </div>
     </div>
+
+
 </body>
 </html>

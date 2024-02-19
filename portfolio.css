@@ -16,6 +16,12 @@ h3{
     margin: 10px;
     margin-bottom: 70px;
 }
+.Navbar{
+    list-style: none;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
 nav >ul :hover{
     cursor: pointer;
     color: brown;
@@ -30,6 +36,7 @@ li{
     margin: 10px;
 }
 h2{
+    padding-top: 10px;
     text-align: center;
     font-family: cursive;
     font-size: 250%;
@@ -55,10 +62,27 @@ h2{
     display: flex;
     justify-content: center;
 }
-p{
-    margin-top: 50px;
+.Home--paragraph{
+    margin-top: 65px;
     font-size: small;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: antiquewhite;
     text-align: center;
+}
+.Skills--Section{
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+.Skills--Icon{
+    padding: 10px;
+    border: 1px solid brown;
+    border-radius: 5px;
+    margin: 5%;
+
+}
+.Skills--content{
+    text-align: center;
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: antiquewhite;
 }
