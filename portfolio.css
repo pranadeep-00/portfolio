@@ -10,11 +10,44 @@ h3{
     padding-top: 8px;
 }
 .Home--Container{
+    margin-top: 3%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 70px;
 }
+.Resume--button{
+    border: 1px solid rgb(248, 246, 246);
+    background: transparent;
+    color: whitesmoke;
+    height: 40px;
+    border-radius: 25px;
+    font-size: small;
+    margin-right: 35px;
+    margin-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+
+}
+.Contact--button{
+
+    border: 3px solid rgb(251, 246, 246);
+    height: 40px;
+    border-radius: 25px;
+    font-size: small;
+    margin-left: 35px;
+    margin-top: 20px;
+
+}
+
+.Button--holder{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .navbar{
     height: 5px;
 }
@@ -49,7 +82,7 @@ h2{
     border-radius: 5px;
 }
 .image{
-    height: 150px;
+    height: 35vh;
     text-align: center;
     background-color: brown;
     border-radius: 50%;
@@ -68,9 +101,10 @@ h2{
 }
 .Skills--Section{
     margin-top: 20%;
-    margin-bottom: 20%;
+    margin-bottom: 5%;
 }
 .Skills--Icon{
+    text-align: center;
     padding: 10px;
     border: 1px solid brown;
     border-radius: 5px;
@@ -82,4 +116,50 @@ h2{
     font-size: small;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.Skills--container{
+    padding: 10px;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    text-align: center;
+    margin: 5%;
+}
+.Project--container{
+    border: 1px solid whitesmoke;
+    margin-bottom: 25%;
+    border-radius: 15px;
+    padding: 10%;
+}
+.liveView--button{
+    border: 1px solid whitesmoke;
+    background: transparent;
+    color: aliceblue;
+    border-radius: 10px;
+    margin: 10px;
+}
+.Github--button{
+    border: 1px solid whitesmoke;
+    background: transparent;
+    color: aliceblue;
+    border-radius: 10px;
+    margin: 10px;
+}
+#Projects{
+    margin-bottom: 10%;
+}
+.Project--section{
+    margin-bottom: 30px;
+}
+.project--heading{
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.certificates--section{
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 10%;
+    
 }
