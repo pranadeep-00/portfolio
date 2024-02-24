@@ -7,10 +7,9 @@ span{
 }
 h3{
     font-family: cursive;
-    padding-top: 8px;
 }
 .Home--Container{
-    margin-top: 3%;
+    margin-top: 2%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -48,10 +47,14 @@ h3{
     justify-content: center;
 }
 
-.navbar{
-    height: 5px;
+nav{
+    margin-top: 5px;
 }
-
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    margin: 10px;
+}
 a:hover{
     cursor: pointer;
     color: brown;
@@ -59,11 +62,9 @@ a:hover{
 ul{
     display: flex;
     flex-direction: row;
-    transition: all ease .50s;
 }
 li{
     list-style: none;
-    margin: 10px;
 }
 h2{
     padding-top: 10px;
@@ -72,7 +73,6 @@ h2{
     font-size: 250%;
 }
 .name--tag{
-    text-align: center;
     font-size: x-small;
     background-color: brown;
     width: 100px;
@@ -81,24 +81,33 @@ h2{
     padding-left: 3px;
     border-radius: 5px;
 }
+.name--container{
+    margin-top: -15px;
+}
 .image{
     height: 35vh;
     text-align: center;
-    background-color: brown;
     border-radius: 50%;
+    background-color: brown;
+
 }
+.image:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
 .image--container{
-    margin-top: 3%;
     display: flex;
     justify-content: center;
 }
+
 .Home--paragraph{
     margin-top: 65px;
     font-size: small;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: antiquewhite;
-    text-align: center;
 }
+
 .Skills--Section{
     margin-top: 20%;
     margin-bottom: 5%;
@@ -140,6 +149,7 @@ h2{
     border-radius: 10px;
     margin: 10px;
 }
+
 .Github--button{
     border: 1px solid whitesmoke;
     background: transparent;

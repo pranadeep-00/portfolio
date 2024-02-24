@@ -10,59 +10,61 @@
     <link rel="stylesheet" href="portfolio.css"/>
 </head>
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col Home--Container"> 
-                <header>
+    <div class="grid">
+        <div class="g-col-12">
+            <div class="g-col Home--Container"> 
+                <header id="header">
                     <h3>
                         <span>P</span>ortfolio
                     </h3>
                 </header>
-                <nav class="navbar navbar-expand-lg navbar-expand-md navbar-expand-sm Navbar" data-bs-theme="dark" style="background-color:rgb(38, 39, 40) ;">
-                    <div class="container-fluid">
-                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                      </button>
-                      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="navbar-nav">
-                          <a class="nav-link active" aria-current="page" href="#Home">Home</a>
-                          <a class="nav-link" href="#About">Skills</a>
-                          <a class="nav-link" href="#Projects">Projects</a>
-                          <a class="nav-link" href="#">Certificates</a>
-                        </div>
-                      </div>
-                    </div>
+                <nav id="Navbar">
+                    <ul>
+                        <li>
+                            <a aria-current="page" href="#Home">Home</a>
+                        </li>
+                        <li>
+                            <a href="#About">Skills</a>
+                        </li>
+                        <li>
+                            <a href="#Projects">Projects</a>
+                        </li>
+                        <li>
+                            <a href="#">Certificates</a>
+                        </li>
+                    </ul>
                 </nav>
-
             </div>
         </div>
-        <div class="row" id="Home">
-            <div class="col-12 col-sm-8">
-                <h2>
-                    <span>P</span>ranadeep
-                </h2>
-                <h6 class="name--tag offset-8">
-                    Frontend Developer
-                </h6>
-                <p class="Home--paragraph">
-                    Hi there! I'm a passionate and aspiring Frontend developer. I have a strong enthusiasm for web development and a genuine eagerness to learn and contribute my skills.
-                </p>
-                <div class="Button--holder">
-                    <button class="Resume--button">
-                        Download Resume
-                    </button>
-                    <button class="Contact--button">
-                        Contact Info
-                    </button>
-                </div>
-            </div>
-            <div class="col-12 col-sm-4 image--container order-first order-sm-last">
-                <img src="image.png" class="image"/>
+    </div>
+    <div class="grid">
+        <div class="g-col-12 g-col-sm-8">
+            <h2 id="Name">
+                <span>P</span>ranadeep
+            </h2>
+            <h6 class="name--tag offset-8">
+                Frontend Developer
+            </h6>
+            <p class="Home--paragraph" id="Text">
+                Hi there! I'm a passionate and aspiring Frontend developer. I have a strong enthusiasm for web development and a genuine eagerness to learn and contribute my skills.
+            </p>
+            <div class="Button--holder">
+                <button class="Resume--button">
+                    Download Resume
+                </button>
+                <button class="Contact--button" id="hover-button">
+                    Contact Info
+                </button>
             </div>
         </div>
+        <div class="g-col-12 g-col-sm-4 image--container order-first order-sm-last">
+                <img src="image.png" id="Image" class="image" />
+        </div>
+    </div>
     
+        
 
-        <div class="Skills--Section grid" id="Aout">
+        <div class="Skills--Section grid" id="About">
             <div class="g-col-12 text-center">
                 <h3>
                     Skills
@@ -90,7 +92,7 @@
 
             <div class="g-col-12 g-col-lg-6 g-col-md-12 Skills--container">
                 <h6>
-                    Frameworks
+                    Frameworks and Library
                 </h6>
                 <div class="Skills--content">
                     <p class="Skills--Icon">
@@ -127,11 +129,11 @@
 
             <div class="g-col-12 g-col-lg-4">
                 <h3 class="text-center Project--section">
-                    Project1
+                    <span>P</span>roject1
                 </h3>
                 <div class=" Project--container">
-                    <h6>
-                        •TODOS Application 
+                    <h6 style=" color: black; height: 25px; font-size: large; background-color: burlywood; width: 100px; border-radius: 10px;">
+                        •TodoList
                     </h6>
                     <p>
                         Project description: Developed persistent todo application with CRUD operations to the track list of tasks <br>
@@ -139,10 +141,12 @@
                     </p>
                     <div class="text-center">
                         <button class="liveView--button">
-                            Live View 
+                            <a href="https://pranadeep-00.github.io/todoList/" class="Liveview">Live view</a>
                         </button>
                         <button class="Github--button">
-                            GitHub
+                            <a href="https://github.com/pranadeep-00">
+                                Github
+                            </a>
                         </button>
                     </div>
                 </div>
@@ -150,22 +154,24 @@
 
             <div class="g-col-12 g-col-lg-4">
                 <h3 class="text-center Project--section">
-                    Project2
+                    <span>P</span>roject2
                 </h3>
                 <div class=" Project--container">
-                    <h6>
-                        •TODOS Application 
+                    <h6 style=" color: black; height: 25px; font-size: large; background-color: burlywood; width: 120px; border-radius: 10px;">
+                        •FoodMunch
                     </h6>
                     <p>
                         Project description: Developed persistent todo application with CRUD operations to the track list of tasks <br>
-                        -Tools & technologies used: HTML5, CSS3, JavaScript.
+                        -Tools & technologies used: HTML5, CSS3, BootStrap
                     </p>
                     <div class="text-center">
                         <button class="liveView--button">
-                            Live View 
+                            <a href="https://pranadeep-00.github.io/Food/" class="Liveview">Live view</a>
                         </button>
                         <button class="Github--button">
-                            GitHub
+                            <a href="https://github.com/pranadeep-00">
+                                Github
+                            </a>
                         </button>
                     </div>
                 </div>
@@ -173,11 +179,11 @@
 
             <div class="g-col-12 g-col-lg-4">
                 <h3 class="text-center Project--section">
-                    Project3
+                    <span>P</span>roject3
                 </h3>
                 <div class=" Project--container">
-                    <h6>
-                        •TODOS Application 
+                    <h6 style=" color: black; height: 25px; font-size: large; background-color: burlywood; width: 100px; border-radius: 10px;">
+                        •Calculator
                     </h6>
                     <p>
                         Project description: Developed persistent todo application with CRUD operations to the track list of tasks <br>
@@ -185,17 +191,19 @@
                     </p>
                     <div class="text-center">
                         <button class="liveView--button">
-                            Live View 
+                            <a href="https://pranadeep-00.github.io/Calculator/" class="Liveview">Live view</a>
                         </button>
                         <button class="Github--button">
-                            GitHub
+                            <a href="https://github.com/pranadeep-00">
+                                Github
+                            </a>
                         </button>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="grid">
+        <div class="grid" style="height: 100vh;">
             <div class="g-col-12">
                 <h5 class="text-center">
                     Certifications
@@ -232,11 +240,7 @@
         </div>
 
 
-
-
-    </div>   
-
-    
+    <script src="portfolio.js"></script>
 
 
 </body>
