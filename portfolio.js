@@ -11,7 +11,7 @@ window.addEventListener('scroll',()=>{
     header.style.marginLeft= value *(-2.5) + 'px';
     navbar.style.marginRight= value* (-2.5) + 'px';
     // image.style.marginRight= value*(-2.5)+ 'px';
-    // Name.style.marginLeft= value*(1.5) + 'px';
+    Name.style.marginTop= value*(2.5) + 'px';
     // text.style.marginLeft= value*(1.5) + 'px';
 }
 )
